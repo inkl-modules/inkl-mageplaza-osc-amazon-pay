@@ -26,7 +26,7 @@ define([
     return Component.extend({
         defaults: {
             email: checkoutData.getInputFieldEmailValue() || getAmazonCustomerEmail(),
-            template: 'Amazon_Payment/form/element/email'
+            template: 'Inkl_MageplazaOscAmazonPay/form/element/email'
         },
 
         /**
